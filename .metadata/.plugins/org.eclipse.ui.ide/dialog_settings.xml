@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Gizwits_V1.1.1_Lib\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32"/>
+		<item value="C:\Gizwits_V1.1.1\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32"/>
+		<item value="C:\Gizwits_V1.1.1"/>
+		<item value="C:\Gizwits_V1.1.1\Projects\B-L475E-IOT01"/>
+		<item value="C:\Gizwits_V1.1.0"/>
+		<item value="C:\Gizwits_V1.1.0\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32"/>
+		<item value="C:\Functional Pack\STM32CubeExpansion_Cloud_Gizwits_V1.0.2\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32\B-L475E-IOT01"/>
+		<item value="C:\Functional Pack\STM32CubeExpansion_Cloud_Gizwits_V1.0.2\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="377" key="DIALOG_HEIGHT"/>
+		<item value="350" key="DIALOG_X_ORIGIN"/>
+		<item value="139" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Gizwits_V1.0.4\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32"/>
+			<item value="C:\Gizwits_V1.0.4\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits"/>
+			<item value="C:\Gizwits_V1.1.0\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\SW4STM32"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,524 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Administrator, 1, LIC=KRMUH-WQBVE-HKWBD-8UEAP-E5BIQ-I6T0D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.15.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+F:\Gizwits\工程项目\ST_GAgent（20180831）（封库版本）\Gizwits_V1.1.1_Lib\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\MDK-ARM\Project.uvprojx
+Project File Date:  08/31/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'B-L475E-IOT01'
+assembling startup_stm32l475xx.s...
+compiling gagent_iot_test_basic_connectivity.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/include/gagent_soc.h(53): warning:  #1295-D: Deprecated declaration GAgentEnableBind - give arg types
+  void GAgentEnableBind();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/include/gagent_soc.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(27): warning:  #1295-D: Deprecated declaration IWDG_Refresh_Count_Test - give arg types
+  static void IWDG_Refresh_Count_Test();
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(100): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+          strcpy( simulator1.szDid,pszDID );
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(100): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+          strcpy( simulator1.szDid,pszDID );
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(101): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+          strcpy( simulator1.szPasscode,szPasscode );
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(101): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+          strcpy( simulator1.szPasscode,szPasscode );
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(177): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+      
+ofMemcpy(attrs.mstrProductKey, pk, iofStrlen(pk));
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(178): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *"
+      
+ofMemcpy(attrs.mstrPKSecret, pks, iofStrlen(pks));
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(246): warning:  #177-D: variable "j" was declared but never referenced
+      
+umpBuf( GAT_NOTIC,inData,inLen );
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(342): warning:  #111-D: statement is unreachable
+      return 0;
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(230): warning:  #177-D: variable "i" was declared but never referenced
+      uint8_t i = 0;
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c(509): warning:  #1-D: last line of file ends without a newline
+  }
+../../../../../Common/Gizwits/Src/gagent_iot_test_basic_connectivity.c: 19 warnings, 0 errors
+compiling heap.c...
+compiling iot_flash_config.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../Common/Gizwits/Src/iot_flash_config.c: 6 warnings, 0 errors
+compiling network.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../Common/Gizwits/Src/network.c: 6 warnings, 0 errors
+compiling sensors_data.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/include/gagent_soc.h(53): warning:  #1295-D: Deprecated declaration GAgentEnableBind - give arg types
+  void GAgentEnableBind();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/include/gagent_soc.h(55): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../Common/Gizwits/Src/sensors_data.c: 8 warnings, 0 errors
+compiling timedate.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../Common/Gizwits/Src/timedate.c: 6 warnings, 0 errors
+compiling iofdev.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioffs/ioffile.h(35): warning:  #1295-D: Deprecated declaration FirmwareDownloadCb - give arg types
+  void  FirmwareDownloadCb();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.c: 4 warnings, 0 errors
+compiling ioffile.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioffs/ioffile.h(35): warning:  #1295-D: Deprecated declaration FirmwareDownloadCb - give arg types
+  void  FirmwareDownloadCb();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioffs/ioffile.c: 3 warnings, 0 errors
+compiling iofipc.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofipc.c(38): warning:  #177-D: variable "j" was declared but never referenced
+    
+umpBuf( GAT_DEBUG, *message, sizeof(iofSig_t) );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofipc.c(56): warning:  #177-D: variable "j" was declared but never referenced
+      
+umpBuf( GAT_DEBUG, sig, sizeof(iofSig_t) );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofipc.c: 4 warnings, 0 errors
+compiling iofnet.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.h(44): warning:  #1295-D: Deprecated declaration gatNetLocalIp - give arg types
+  uint8* 
+AT_FUN_ATTR_ROM gatNetLocalIp( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/net/gatnet.h(29): warning:  #1295-D: Deprecated declaration gatNetConnParaGet - give arg types
+  NetCon_t* 
+AT_FUN_ATTR_ROM gatNetConnParaGet();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/net/gatnet.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(80): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+      
+ofStrcpy( pNetInfo->ssid1,szSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(80): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+      
+ofStrcpy( pNetInfo->ssid1,szSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(85): warning:  #68-D: integer conversion resulted in a change of sign
+      return 
+AT_ERR_FAIL;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(93): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+      
+ofStrcpy( pNetInfo->key1,szPwd );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(93): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+      
+ofStrcpy( pNetInfo->key1,szPwd );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(98): warning:  #68-D: integer conversion resulted in a change of sign
+      return 
+AT_ERR_FAIL;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(106): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+      
+ofStrcpy( pNetInfo->bssid1,szBSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(106): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+      
+ofStrcpy( pNetInfo->bssid1,szBSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(111): warning:  #68-D: integer conversion resulted in a change of sign
+      return 
+AT_ERR_FAIL;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(120): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+      
+ofStrcpy( pNetInfo->ssid2,szSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(120): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+      
+ofStrcpy( pNetInfo->ssid2,szSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(125): warning:  #68-D: integer conversion resulted in a change of sign
+      return 
+AT_ERR_FAIL;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(133): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+      
+ofStrcpy( pNetInfo->key2,szPwd );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(133): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+      
+ofStrcpy( pNetInfo->key2,szPwd );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(138): warning:  #68-D: integer conversion resulted in a change of sign
+      return 
+AT_ERR_FAIL;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(146): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "char *restrict"
+      
+ofStrcpy( pNetInfo->bssid2,szBSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(146): warning:  #167-D: argument of type "uint8 *" is incompatible with parameter of type "const char *restrict"
+      
+ofStrcpy( pNetInfo->bssid2,szBSSID );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(151): warning:  #68-D: integer conversion resulted in a change of sign
+      return 
+AT_ERR_FAIL;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(188): warning:  #223-D: function "WIFI_GetMAC_Address" declared implicitly
+    WIFI_GetMAC_Address((uint8_t*)macAddress);
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(323): warning:  #223-D: function "WIFI_GetHostAddress" declared implicitly
+    if (WIFI_GetHostAddress((char*) domain, strIp)!= 0)
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(326): warning:  #68-D: integer conversion resulted in a change of sign
+      return -1;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(340): warning:  #167-D: argument of type "const uint8 *" is incompatible with parameter of type "const int8 *"
+    ret = iofGetHostByName( szName, szTempIp );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c(352): warning:  #1-D: last line of file ends without a newline
+  }
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofnet.c: 32 warnings, 0 errors
+compiling iofpthread.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/soclocal/local.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/commlocal/localcomm.h(148): warning:  #1295-D: Deprecated declaration gatLocalInit - give arg types
+  void gatLocalInit();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/crypto/base64/gatbase64.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioffs/ioffile.h(35): warning:  #1295-D: Deprecated declaration FirmwareDownloadCb - give arg types
+  void  FirmwareDownloadCb();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/filetransmit/filepush/filepush.h(66): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/filetransmit/filepull/filepull.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/soclocal/local.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/lan/lanvirtual/lanProcess.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.h(24): warning:  #1295-D: Deprecated declaration iofPthreadCreate - give arg types
+  int32 iofPthreadCreate();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/timer/timer_subsystem.h(50): warning:  #1295-D: Deprecated declaration gatTimerCoreInit - give arg types
+  void 
+AT_FUN_ATTR_ROM gatTimerCoreInit();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/commlocal/localio.h(81): warning:  #1295-D: Deprecated declaration gatLocalioInit - give arg types
+  void gatLocalioInit( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/commlocal/localio.h(87): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioftime/ioftime.h(7): warning:  #1295-D: Deprecated declaration getDevTime_MS - give arg types
+  uint32 getDevTime_MS();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioftime/ioftime.h(8): warning:  #1295-D: Deprecated declaration iofCurTime - give arg types
+  char *iofCurTime();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.c(95): warning:  #223-D: function "gatTcpDataSendHandle" declared implicitly
+          gatTcpDataSendHandle();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.c(105): warning:  #223-D: function "gatTcpReceiveHandle" declared implicitly
+      gatTcpReceiveHandle();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.c(102): warning:  #177-D: variable "flag" was declared but never referenced
+    static int8 flag = 0;
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.c(151): warning:  #223-D: function "gatSerialSendHandle" declared implicitly
+        gatSerialSendHandle();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.c(161): warning:  #223-D: function "gatSerialRecHandle" declared implicitly
+        gatSerialRecHandle();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.c: 25 warnings, 0 errors
+compiling iofserial.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofserial/iofserial.h(16): warning:  #1295-D: Deprecated declaration iofSerialInit - give arg types
+  int32 iofSerialInit();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofserial/iofserial.c(124): warning:  #177-D: variable "j" was declared but never referenced
+    
+umpBuf(GAT_DUMP, pData, datalen);
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofserial/iofserial.c(60): warning:  #177-D: function "serialMaxFd" was declared but never referenced
+  static int32 GAT_FUN_ATTR_ROM serialMaxFd( void )
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofserial/iofserial.c: 5 warnings, 0 errors
+compiling iofsocket.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofsocket.c(142): warning:  #223-D: function "gatMsgId" declared implicitly
+          iofSendSig(gatMsgId(), &sig);
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofsocket.c(263): warning:  #223-D: function "gatMsgId" declared implicitly
+      iofSendSig(gatMsgId(), &sig);
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/net/iofsocket.c: 4 warnings, 0 errors
+compiling iofstring.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofstring.c(7): warning:  #167-D: argument of type "const int8 *" is incompatible with parameter of type "const char *"
+      int32 len = strlen(strObj);
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofstring.c(52): warning:  #1-D: last line of file ends without a newline
+  }
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofstring.c: 4 warnings, 0 errors
+compiling ioftime.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/timer/timer_subsystem.h(50): warning:  #1295-D: Deprecated declaration gatTimerCoreInit - give arg types
+  void 
+AT_FUN_ATTR_ROM gatTimerCoreInit();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/commlocal/localio.h(81): warning:  #1295-D: Deprecated declaration gatLocalioInit - give arg types
+  void gatLocalioInit( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/commlocal/localio.h(87): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioftime/ioftime.h(7): warning:  #1295-D: Deprecated declaration getDevTime_MS - give arg types
+  uint32 getDevTime_MS();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioftime/ioftime.h(8): warning:  #1295-D: Deprecated declaration iofCurTime - give arg types
+  char *iofCurTime();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/soclocal/local.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/commlocal/localcomm.h(148): warning:  #1295-D: Deprecated declaration gatLocalInit - give arg types
+  void gatLocalInit();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/crypto/base64/gatbase64.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioffs/ioffile.h(35): warning:  #1295-D: Deprecated declaration FirmwareDownloadCb - give arg types
+  void  FirmwareDownloadCb();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/filetransmit/filepush/filepush.h(66): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/filetransmit/filepull/filepull.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/local/soclocal/local.h(41): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/lan/lanvirtual/lanProcess.h(37): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/iofpthread.h(24): warning:  #1295-D: Deprecated declaration iofPthreadCreate - give arg types
+  int32 iofPthreadCreate();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/ioftime/ioftime.c: 20 warnings, 0 errors
+compiling semaph.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofpthread/semaph.c: 2 warnings, 0 errors
+compiling flash_l4.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../Src/flash_l4.c: 6 warnings, 0 errors
+compiling main.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../Src/main.c(430): warning:  #223-D: function "SPI_WIFI_ISR" declared implicitly
+        SPI_WIFI_ISR();
+../Src/main.c: 7 warnings, 0 errors
+compiling stm32l4xx_hal_msp.c...
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(4): warning:  #1295-D: Deprecated declaration devRestart - give arg types
+  void devRestart();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/iof/iofcomm/iofdev.h(5): warning:  #1295-D: Deprecated declaration dev_free_heap_size - give arg types
+  int dev_free_heap_size();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/nwk/nwk_manage.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(37): warning:  #1295-D: Deprecated declaration gatDnsTask - give arg types
+  int32 
+AT_FUN_ATTR_ROM gatDnsTask();
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/core/gdns/gdns.h(39): warning:  #1-D: last line of file ends without a newline
+  #endif
+../../../../../../Middlewares/Third_Party/gagentModule/gagent/env/productinfo.h(94): warning:  #1295-D: Deprecated declaration gatProductConfiInfoSave - give arg types
+  int8 gatProductConfiInfoSave( );
+../Src/stm32l4xx_hal_msp.c: 6 warnings, 0 errors
+compiling stm32l4xx_hal_timebase_tim.c...
+compiling stm32l4xx_it.c...
+compiling vl53l0x_platform.c...
+compiling vl53l0x_proximity.c...
+compiling es_wifi_io.c...
+compiling wifi.c...
+compiling stm32l475e_iot01.c...
+compiling stm32l475e_iot01_accelero.c...
+compiling stm32l475e_iot01_gyro.c...
+compiling stm32l475e_iot01_hsensor.c...
+compiling stm32l475e_iot01_magneto.c...
+compiling stm32l475e_iot01_psensor.c...
+compiling stm32l475e_iot01_tsensor.c...
+compiling es_wifi.c...
+compiling hts221.c...
+compiling lis3mdl.c...
+compiling lps22hb.c...
+compiling lsm6dsl.c...
+compiling vl53l0x_api.c...
+compiling vl53l0x_api_calibration.c...
+compiling vl53l0x_api_core.c...
+compiling vl53l0x_api_ranging.c...
+compiling vl53l0x_api_strings.c...
+compiling vl53l0x_platform_log.c...
+compiling system_stm32l4xx.c...
+compiling stm32l4xx_hal.c...
+compiling stm32l4xx_hal_cortex.c...
+compiling stm32l4xx_hal_dma.c...
+compiling stm32l4xx_hal_flash.c...
+compiling stm32l4xx_hal_flash_ex.c...
+compiling stm32l4xx_hal_flash_ramfunc.c...
+compiling stm32l4xx_hal_gpio.c...
+compiling stm32l4xx_hal_i2c.c...
+compiling stm32l4xx_hal_i2c_ex.c...
+compiling stm32l4xx_hal_iwdg.c...
+compiling stm32l4xx_hal_pwr.c...
+compiling stm32l4xx_hal_pwr_ex.c...
+compiling stm32l4xx_hal_qspi.c...
+compiling stm32l4xx_hal_rcc.c...
+compiling stm32l4xx_hal_rcc_ex.c...
+compiling stm32l4xx_hal_rng.c...
+compiling stm32l4xx_hal_rtc.c...
+compiling stm32l4xx_hal_rtc_ex.c...
+compiling stm32l4xx_hal_spi.c...
+compiling stm32l4xx_hal_spi_ex.c...
+compiling stm32l4xx_hal_tim.c...
+compiling stm32l4xx_hal_tim_ex.c...
+compiling stm32l4xx_hal_uart.c...
+compiling stm32l4xx_hal_uart_ex.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling tasks.c...
+compiling timers.c...
+compiling cmsis_os.c...
+compiling heap_4.c...
+compiling port.c...
+linking...
+B-L475E-IOT01\Exe\B-L475E-IOT01.axf: Warning: L6988W: Ignoring unknown patch sdcomp-29491-629360.
+Program Size: Code=137572 RO-data=10216 RW-data=1664 ZI-data=94344  
+Finished: 0 information, 1 warning and 0 error messages.
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin -o ./B-L475E-IOT01/exe/project.bin ./B-L475E-IOT01/exe/B-L475E-IOT01.axf
+"B-L475E-IOT01\Exe\B-L475E-IOT01.axf" - 0 Error(s), 168 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\Gizwits\工程项目\ST_GAgent（20180831）（封库版本）\Gizwits_V1.1.1_Lib\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+</pre>
+</body>
+</html>

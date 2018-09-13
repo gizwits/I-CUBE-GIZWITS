@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>C:\Gizwits_V1.1.0\Projects\Common\Gizwits\Src\gagent_iot_test_basic_connectivity.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Gizwits_V1.1.1\Middlewares\Third_Party\gagentModule\gagent\iof\iofcomm\iofdev.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Gizwits_V1.1.1\Projects\Common\Gizwits\Src\gagent_iot_test_basic_connectivity.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\Gizwits_V1.1.0\Middlewares\Third_Party\gagentModule\gagent\iof\iofcomm\iofdev.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\Gizwits_V1.1.0\Projects\Common\Gizwits\Src\gagent_iot_test_basic_connectivity.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\STM32CubeExpansion_Cloud_Gizwits_V1.0.3\Projects\Common\Gizwits\Src\gagent_iot_test_basic_connectivity.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\STM32CubeExpansion_Cloud_Gizwits_V1.0.3_test\Middlewares\Third_Party\gagentModule\gagent\iof\iofcomm\iofdev.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\STM32CubeExpansion_Cloud_Gizwits_V1.0.3_test\Projects\Common\Gizwits\Src\gagent_iot_test_basic_connectivity.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\STM32CubeExpansion_Cloud_Gizwits_V1.0.4_test\Middlewares\Third_Party\gagentModule\gagent\iof\iofcomm\iofdev.c</path>
+        <encoding>System</encoding>
+    </override>
+    <override>
+        <path>C:\Users\mark yang\Desktop\STM32_Cloud\X-CUBE\STM32CubeExpansion_Cloud_Gizwits_V1.0.4_test\Projects\Common\Gizwits\Src\gagent_iot_test_basic_connectivity.c</path>
+        <encoding>System</encoding>
+    </override>
+</userOverrides>

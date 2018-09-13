@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armsim2.dll" 
+
+"E:\work\work\gagent\working\ST\I-CUBE-GIZWITS\Projects\B-L475E-IOT01\Applications\Cloud\Gizwits\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\config\debugger\ST\STM32L4xx.dmac" 
+
+
+
+

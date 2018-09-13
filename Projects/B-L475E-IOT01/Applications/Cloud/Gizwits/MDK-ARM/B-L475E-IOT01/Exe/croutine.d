@@ -1,0 +1,14 @@
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+b-l475e-iot01\exe\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+b-l475e-iot01\exe\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+b-l475e-iot01\exe\croutine.o: ../Inc/FreeRTOSConfig.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+b-l475e-iot01\exe\croutine.o: ../../../../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

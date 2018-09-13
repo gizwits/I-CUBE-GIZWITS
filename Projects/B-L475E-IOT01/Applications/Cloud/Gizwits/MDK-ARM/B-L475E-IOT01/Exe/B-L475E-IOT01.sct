@@ -1,0 +1,23 @@
+; *************************************************************
+; *** Scatter-Loading Description File ***
+; *************************************************************
+
+LR_IROM1 0x08000000 0x00080000  {    ; load region size_region
+  ER_IROM1 0x08000000 0x00080000  {  ; load address = execution address
+   *.o (RESET, +First)
+   *(InRoot$$Sections)
+   .ANY (+RO)
+   }
+  ;inited_fixed_loc 0x08064000  0x800  {  ; load address = execution address
+  ;*(INITED_FIXED_LOC)
+  ;}
+  uninit_fixed_loc 0x08064000  0x2000  {  ; load address = execution address
+  *(UNINIT_FIXED_LOC)
+  }
+  ;firewall_ROM 0x08066D00  FIXED  {  ; load address = execution address
+  ;*(firewall_section)
+ ; }
+  RW_IRAM1 0x20000000 0x00018000  {  ; RW data
+   .ANY (+RW +ZI)
+  }
+}

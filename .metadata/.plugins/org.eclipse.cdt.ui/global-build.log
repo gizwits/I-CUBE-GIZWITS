@@ -1,0 +1,20 @@
+12:38:30 **** Incremental Build of configuration Debug for project B-L475E-IOT01 ****
+make all 
+Building target: B-L475E-IOT01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -L"C:\Gizwits_V1.1.1_Lib\Middlewares\Third_Party\Gagent"  -T"../STM32L475VGTx_FLASH.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "B-L475E-IOT01.elf" @"objects.list"  -lGagent_AC6 -lm
+Finished building target: B-L475E-IOT01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "B-L475E-IOT01.elf" "B-L475E-IOT01.bin"
+arm-none-eabi-size "B-L475E-IOT01.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 239240	   5888	  94136	 339264	  52d40	B-L475E-IOT01.elf
+ 
+12:52:16 **** Incremental Build of configuration Debug for project B-L475E-IOT01 ****
+make all 
+make: Nothing to be done for `all'.
+12:55:18 **** Incremental Build of configuration Debug for project B-L475E-IOT01 ****
+make all 
+make: Nothing to be done for `all'.

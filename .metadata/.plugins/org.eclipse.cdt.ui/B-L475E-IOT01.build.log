@@ -1,0 +1,7 @@
+10:58:52 **** Clean-only build of configuration Debug for project B-L475E-IOT01 ****
+make clean 
+rm -rf *
+ 
+
+10:58:53 Build Finished (took 1s.373ms)
+
