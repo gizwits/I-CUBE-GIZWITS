@@ -1,16 +1,7 @@
-v1.0.4_test在v1.0.4的基础上增加了Reset API, LED API, 以及上传的数据类型。预授权。连接时间短。上传延时变小。加入了新的select机制。FOTA初步完成, 清理了一些冗余测试代码。
+The I-CUBE-GIZWITS software expansion package consists of a set of libraries and application examples for STM32L4 Series microcontrollers acting as end devices.
 
-KEIL和AC6可用。已经改了少量代码以备升级。
+I-CUBE-GIZWITS runs on the B-L475E-IOT01 IoT Discovery kit platform which support Wi-Fi庐 connectivity with an on-board Inventek module.
 
-加入了WIFI检测并重连机制，以及经过了长时间的断网/联网测试
+A sample application configures the Wi-Fi庐 parameters, and illustrates the various ways for a device to interact with the GIZWITS庐 IoT Cloud platform.
 
-还剩下tcp connection函数永远返回0的bug。
-
-增加了软件定时器的栈的深度至1024。
-
-更新了WIFI固件并对新固件进行了代码适配，增加了WIFI模块重启等。
-
-为了防止看门狗溢出（30秒），iofsocket.c中TCP连接次数改为1次。
-
-ota结束的回调函数不再是简单重启。
-
+GAgent is GIZWITS鈥檚 hardware connectivity with the embedded system firmware that can operate in STM32. Devices access GIZWITS庐 IoT Cloud platform through the GAgent. GAgent provides the communication protocol between cloud and MCU on the module, so that, according to the protocol, developers can realize the communication between STM32 and cloud via Wi-Fi庐.
